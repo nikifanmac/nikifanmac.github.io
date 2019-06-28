@@ -21,3 +21,7 @@ jQuery(document).ready(function($){
 
 
     $(".portfolio__item").wrap('<a class="portfolio__a" href="javascript:void(0)"</a>');
+
+    $(".portfolio__item").click(function () {
+      $(".portfolio__item__hover__block").css("opacity : 1");
+    });
