@@ -264,6 +264,11 @@ a{
 	background-color: rgb(220, 220, 220);
 }
 
+.portfolio__a{
+	width: 100%;
+	cursor: default;
+}
+
 .portfolio__item:hover .portfolio__item__name{
 	display: none;
 }
