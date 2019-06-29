@@ -42,20 +42,24 @@ a{
 
 
 .header{
+	position: relative;
 	width: 100%;
 	height: 100vh;
 	background: -webkit-linear-gradient( 45deg, rgba(0, 0, 0, .82) 0%, rgba(4, 17, 60, .9) 100%, rgb(200,136,0) 100%, rgb(20,136,204) 100%) , url(../img/header__bg.png) no-repeat center;
 	background-size: cover;
 }
 
+.header .container{
+	height: 100%;
+}
+
 .header__wrap{
-	position: relative;
 	color: #fff;
 	width: 100%;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	height: 100vh;
+	height: 100%;
 }
 
 .header__wrap > a{
@@ -355,6 +359,37 @@ a{
 	background-size: cover;
 }
 
+.item__1{
+	background: url(../img/bouncy.png) no-repeat top;
+	background-size: cover;
+}
+
+.item__2{
+	background: url(../img/Lemon.png) no-repeat top;
+	background-size: cover;
+}
+
+.item__3{
+	background: url(../img/Creative.png) no-repeat top;
+	background-size: cover;
+}
+
+
+.item__4{
+	background: url(../img/MoGo.png) no-repeat top;
+	background-size: cover;
+}
+
+.item__5{
+	background: url(../img/Oenrique.png) no-repeat top;
+	background-size: cover;
+}
+
+.item__6{
+	background: url(../img/Strict.png) no-repeat top;
+	background-size: cover;
+}
+
 
 
 .footer{
@@ -379,6 +414,7 @@ a{
 }
 
 .footer__left{
+	padding-right: 20px;
 	padding-left: 20px;
 	font-size: 30px;
 	color: #fff;
@@ -549,6 +585,10 @@ a{
 	.footer__right__item{
 		margin-right: 0;
 	}
+
+	.menu p{
+		width: 80%;
+	}
 }
 
 @media screen and (max-width: 500px){
@@ -563,6 +603,8 @@ a{
 	.header__logo span{
 		font-size: 30px;
 	}
+
+
 
 	.heder__skills h2{
 		font-size: 35px;
@@ -586,4 +628,29 @@ a{
 		font-size: 13px;
 	}
 }
+
+
+@media all and (orientation:portrait) {
+
+}
+
+@media all and (orientation:landscape) {
+	.header{
+	min-height: 700px;	
+	}
+
+	.header .container{
+		height: 100%;
+	}
+
+	.header .header__wrap{
+		height: 100%;
+	}
+}
+
+
+
+
+
+
 
