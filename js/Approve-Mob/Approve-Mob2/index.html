@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,700,800,900&display=swap&subset=cyrillic,cyrillic-ext,latin-ext" rel="stylesheet">
+	<link rel="stylesheet" href="css/slick.css">
+	<link rel="stylesheet" href="css/style.css">
+	<title>Approve</title>
+</head>
+
+<body>
+
+
+	<div class="popup">
+		<form action="/Approve/mail.php" method="post"  class="form__popup">
+			<div class="exit">
+				<img src="img/exit.png" alt="">
+			</div>
+			<!-- Hidden Required Fields -->
+		<input type="hidden" name="project_name" value="Approve">
+		<input type="hidden" name="admin_email" value="holshevnikov.dim@yandex.ru">
+		<input type="hidden" name="form_subject" value="Заказать бриф">
+		<!-- END Hidden Required Fields -->
+
+		<input type="text" name="Name" placeholder="Имя" required>
+		<input type="text" name="Telephone" placeholder="Телефон" required>
+		<button type="submit" name="button">Оставить заявку</button>
+		</form>
+	</div>
+
+
+<div class="header__navigation__mobile">
+	<!-- <img class="exit__menu" src="img/exit.png" alt=""> -->
+	<div class="header__navigation">
+		<ul class="top__menu">
+			<li>
+				<a id="submenu__go" href="javascript:void(0)">Услуги <img src="img/arrow.png" alt=""></a>
+				<ul class="submenu">
+					<li><a href="#">Разработка сайта</a></li>
+					<li><a href="#">Дизайн интерфейсов</a></li>
+					<li><a href="#">Продвижение продукта</a></li>
+					<li><a href="#">Дизайн интерфейсов</a></li>
+					<li><a href="#">Продвижение продукта</a></li>
+
+				</ul>
+			</li>
+			<li><a href="#">Преимущества</a></li>
+			<li><a href="#">Контакты</a></li>
+		</ul>
+	</div>
+
+</div>
+
+
+
+
+<header class="header">
+	<div class="container">
+		<div class="header__wrap">
+			<div class="header__nav">
+				<div class="header__logo">
+					<img src="img/logo.png" alt="">
+				</div>
+				<div id="burg">
+					<img src="img/burg.png" alt="">
+				</div>
+			</div>
+			<div class="header_img">
+				<img src="img/Header_bg.png" alt="">
+			</div>
+			<div class="header__menu__content">
+				<h1>Разработка и продвижение сложных веб-продуктов.</h1>
+				<p>Индивидуальный подход к каждому проекту, оценка ЦА и самые действенные модели продвижения</p>
+				<a class="popup__go" href="javascript:void(0)">Написать нам</a>
+			</div>
+		</div>
+	</div>
+</header>
+
+
+<div class="advantages">
+  <div class="container">
+    <div class="advantages__wrap">
+      <div class="advantages__slider">
+        <div class="advantages__slider__item advantages__slider__item1">
+          <div class="advantages__slider__item__menu">
+            <h3><span>01</span>Адаптивный веб-дизайн</h3>
+            <b>Наши сайты работают отлично на всех доступных устройствах.</b>
+            <div class="hr"></div>
+          <p>Бывало ли у Вас такое, что заказать товар в интернет-магазине со своего смартфона ужасно некомфортно?</p>
+            <p>Мы решаем эти задачи, и делаем Ваш сайт удобным для всех посетителей. А это влияет и на покупаемость продаваемой продукции!</p>
+            <a class="popup__go" href="#javascript:void(0)">Связаться с нами</a>
+          </div>
+
+        </div>
+
+        <div class="advantages__slider__item advantages__slider__item2">
+          <div class="advantages__slider__item__menu">
+            <h3><span>02</span>Решаем проблему клиента</h3>
+            <b>Сочетание программных и креативных решений.</b>
+            <div class="hr"></div>
+            <p>Мы не конвеер по созданию сайтов - мы решаем конкретную проблему нашего клиента, и доводим результат до совершенства.</p>
+            <p>Сайты должны приносить прибыль. Это инструмент, которым мы научим пользоваться правильно и извлекать выгоду.</p>
+            <a class="popup__go" href="javascript:void(0)">Связаться с нами</a>
+          </div>
+
+        </div>
+
+        <div class="advantages__slider__item advantages__slider__item3">
+          <div class="advantages__slider__item__menu">
+            <h3><span>03</span>Долгосрочная поддержка</h3>
+            <b>Мы не оставим Вас, а продолжим улучшать проект и помогать.</b>
+            <div class="hr"></div>
+          <p>Мы поддерживаем сайты наших клиентов даже спустя годы после разработки, поэтому к нам приходят снова.</p>
+            <p>Готовы вкусить качественный продукт? Тогда свяжитесь с нами!</p>
+            <a class="popup__go" href="javascript:void(0)">Связаться с нами</a>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="works__stage">
+	<div class="container">
+		<div class="works__stage__wrap">
+			<h2>Этапы работы</h2>
+			<div class="works__stage__wrap__wrapper">
+
+				<div class="works__stage__item works__stage__item1">
+					<div class="works__stage__item__top">
+						<span>01</span>
+						<div class="works__stage__item__bottom">
+							<p>Заполняете бриф на разработку</p>
+						</div>
+						<div class="works__stage__item__logo">
+							<img class="works__stage__item__logo__active" src="img/work1.png" alt="">
+							<img class="works__stage__item__logo__hidden" src="img/work1_a.png" alt="">
+						</div>
+					</div>
+
+				</div>
+
+				<div class="works__stage__item works__stage__item2">
+					<div class="works__stage__item__top">
+						<span>02</span>
+						<div class="works__stage__item__bottom">
+							<p>Разработка структуры сайта</p>
+						</div>
+						<div class="works__stage__item__logo">
+							<img class="works__stage__item__logo__active" src="img/work2.png" alt="">
+							<img class="works__stage__item__logo__hidden" src="img/work2_a.png" alt="">
+						</div>
+					</div>
+
+				</div>
+
+				<div class="works__stage__item works__stage__item3">
+					<div class="works__stage__item__top">
+						<span>03</span>
+						<div class="works__stage__item__bottom">
+							<p>Разработка дизайна сайта</p>
+						</div>
+						<div class="works__stage__item__logo">
+							<img class="works__stage__item__logo__active" src="img/work3.png" alt="">
+							<img class="works__stage__item__logo__hidden" src="img/work3_a.png" alt="">
+						</div>
+					</div>
+
+				</div>
+
+
+								<div class="works__stage__item works__stage__item4">
+									<div class="works__stage__item__top">
+										<span>04</span>
+										<div class="works__stage__item__bottom">
+											<p>Верстка страниц сайта</p>
+										</div>
+										<div class="works__stage__item__logo">
+											<img class="works__stage__item__logo__active" src="img/work4.png" alt="">
+											<img class="works__stage__item__logo__hidden" src="img/work4_a.png" alt="">
+										</div>
+									</div>
+
+								</div>
+
+				<div class="works__stage__item works__stage__item5">
+					<div class="works__stage__item__top">
+						<span>05</span>
+						<div class="works__stage__item__bottom">
+							<p>Интеграция дизайна с системой управления CMS</p>
+						</div>
+						<div class="works__stage__item__logo">
+							<img class="works__stage__item__logo__active" src="img/work5.png" alt="">
+							<img class="works__stage__item__logo__hidden" src="img/work5_a.png" alt="">
+						</div>
+					</div>
+
+				</div>
+
+
+				<div class="works__stage__item works__stage__item6">
+					<div class="works__stage__item__top">
+						<span>06</span>
+						<div class="works__stage__item__bottom">
+							<p>Наполнение контентом</p>
+						</div>
+						<div class="works__stage__item__logo">
+							<img class="works__stage__item__logo__active" src="img/work6.png" alt="">
+							<img class="works__stage__item__logo__hidden" src="img/work6_a.png" alt="">
+						</div>
+					</div>
+
+				</div>
+
+				<div class="works__stage__item works__stage__item7">
+					<div class="works__stage__item__top">
+						<span>07</span>
+						<div class="works__stage__item__bottom">
+							<p>Тестирование работоспособности сайта</p>
+						</div>
+						<div class="works__stage__item__logo">
+							<img class="works__stage__item__logo__active" src="img/work7.png" alt="">
+							<img class="works__stage__item__logo__hidden" src="img/work7_a.png" alt="">
+						</div>
+					</div>
+
+				</div>
+
+				<div class="works__stage__item works__stage__item8">
+					<div class="works__stage__item__top">
+						<span>08</span>
+						<div class="works__stage__item__bottom">
+							<p>Сдача проекта в срок</p>
+						</div>
+						<div class="works__stage__item__logo">
+							<img class="works__stage__item__logo__active" src="img/work8.png" alt="">
+							<img class="works__stage__item__logo__hidden" src="img/work8_a.png" alt="">
+						</div>
+					</div>
+
+				</div>
+<div class="works__stage__wrap__hr">
+			</div>
+
+
+			<div class="works__stage__wrap__hr2">
+
+
+
+			</div>
+
+		</div>
+		</div>
+	</div>
+</div>
+
+
+
+<div class="slider__logo">
+  <div class="container">
+    <div class="slider__logo__wrap">
+      <h2>Стоимость</h2>
+      <div class="slider__logo__slider">
+
+
+        <div class="slider__logo__slider__item">
+          <div class="slider__logo__slider__item__img">
+            <img src="img/logo__img1.png" alt="">
+          </div>
+					<span>Разработка</span>
+					<h3>Landing page</h3>
+					<p>Одностраничный сайта для продвижения одного продукта.</p>
+					<a class="popup__go" href="javascript:void(0)">Заказать бриф <img src="img/arrow__a.png" alt=""></a>
+        </div>
+
+
+
+				<div class="slider__logo__slider__item">
+					<div class="slider__logo__slider__item__img">
+						<img src="img/logo__img2.png" alt="">
+					</div>
+					<span>Разработка</span>
+					<h3>Интернет-магазина</h3>
+					<p>Интернет-магазин для любых целей, с широким ассортиментом функций.</p>
+					<a class="popup__go" href="javascript:void(0)">Заказать бриф <img src="img/arrow__a.png" alt=""></a>
+				</div>
+
+
+				<div class="slider__logo__slider__item">
+					<div class="slider__logo__slider__item__img">
+						<img src="img/logo__img3.png" alt="">
+					</div>
+					<span>Разработка</span>
+					<h3>Многостраничного сайта</h3>
+					<p>Сайт с подробным описанием услуг компании.</p>
+					<a class="popup__go" href="javascript:void(0)">Заказать бриф <img src="img/arrow__a.png" alt=""></a>
+				</div>
+
+
+
+
+
+
+
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<div class="cta">
+  <div class="container">
+    <div class="cta__wrap">
+        <h3>Будем рады сотрудничеству!</h3>
+        <p>Хотите, чтобы о вашем продукте узнали миллионы? Напишите нам, и мы расскажем, что делать.</p>
+        <a class="popup__go" href="javascript:void(0)">Получить консультацию</a>
+          <div class="hr"></div>
+          <h2>APPROVE DIGITAL</h2>
+    </div>
+  </div>
+</div>
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer__wrap">
+      <div class="header__nav">
+        <div class="header__logo">
+          <img src="img/logo.png" alt="">
+        </div>
+        <div class="header__navigation">
+          <ul class="top__menu">
+            <li >
+              <a id="submenu__go__mobile" href="javascript:void(0)">Услуги <img src="img/arrow.png" alt=""></a>
+              <ul class="submenu">
+                <li><a href="#">Разработка сайта</a></li>
+                <li><a href="#">Дизайн интерфейсов</a></li>
+                <li><a href="#">Продвижение продукта</a></li>
+                <li><a href="#">Дизайн интерфейсов</a></li>
+                <li><a href="#">Продвижение продукта</a></li>
+
+              </ul>
+            </li>
+            <li><a href="#">Преимущества</a></li>
+            <li><a href="#">Контакты</a></li>
+          </ul>
+        </div>
+        <a class="header__nav__link popup__go" href="javascript:void(0)">
+          <!-- <div class="header__nav__link"> -->
+          <span>Связаться с нами</span>
+        <!-- </div> -->
+        </a>
+      </div>
+      <div class="footer__social">
+        <div class="footer__social__img">
+          <a href="#"><img class="footer__social__img__visible" src="img/Insta.png" alt=""></a>
+          <a href="#"><img class="footer__social__img__hover" src="img/insta_hover.png" alt=""></a>
+        </div>
+
+        <div class="footer__social__img">
+          <a href="#"><img class="footer__social__img__visible" src="img/FB.png" alt=""></a>
+          <a href="#"><img class="footer__social__img__hover" src="img/FB_hover.png" alt=""></a>
+        </div>
+
+        <div class="footer__social__img">
+          <a href="#"><img class="footer__social__img__visible" src="img/LIn.png" alt=""></a>
+          <a href="#"><img class="footer__social__img__hover" src="img/LIn_hover.png" alt=""></a>
+        </div>
+
+        <div class="footer__social__img">
+          <a href="#"><img class="footer__social__img__visible" src="img/YT.png" alt=""></a>
+          <a href="#"><img class="footer__social__img__hover" src="img/YT_hover.png" alt=""></a>
+        </div>
+      </div>
+      <div class="footer__info">
+        <p>© 2015–2019 Approve digital. Все права защищены.</p>
+        <div class="foter__license">
+
+            <a href="#">Политика конфиденциальности</a>
+
+            <a href="#">Условия пользования</a>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="js/slick.min.js"></script>
+	<script src="js/script.js"></script>
+
+</body>
+
+</html>
